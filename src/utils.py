@@ -9,3 +9,7 @@ def is_even(n):
 def celsius_to_fahrenheit(c):
     """Convert Celsius to Fahrenheit."""
     return (c * 9/5) + 32
+
+def greet(name):
+    """Return a personalized greeting."""
+    return f"Hello, {name}! Welcome to Python Lab!"
