@@ -1,4 +1,4 @@
-from utils import square, is_even, celsius_to_fahrenheit, greet
+from utils import square, is_even, celsius_to_fahrenheit
 
 def main():
     try:
@@ -15,9 +15,6 @@ def main():
     print(f"  Square: {squared}")
     print(f"  Parity: {parity}")
     print(f"  Fahrenheit: {fahrenheit:.2f}°F")
-    
-    # Greeting
-    print(greet("Student"))
 
 if __name__ == "__main__":
     main()
